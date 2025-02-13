@@ -54,15 +54,15 @@ Implements efficient expert utilization through:
 - Expert utilization monitoring
 
 ### Model Parameter Summary
-Total Parameters: 1.2B (1,244,988,416)
-Trainable Parameters: 1.2B (1,244,988,416)
-Model Size: 4.8GB (4749.25 MB)
+Total Parameters: 1.2B (1,244,988,416)  
+Trainable Parameters: 1.2B (1,244,988,416)  
+Model Size: 4.8GB (4749.25 MB)  
 
-Clone repository
-git clone https://github.com/yourusername/deepseek-implementation.git
-cd deepseek-implementation
-Install dependencies
-pip install -r requirements.txt
+### Clone repository  
+git clone https://github.com/yourusername/deepseek-implementation.git  
+cd deepseek-implementation  
+Install dependencies  
+pip install -r requirements.txt  
 
 ## Training
 
