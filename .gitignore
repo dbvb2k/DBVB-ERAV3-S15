@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+.pytest_cache
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+
+# Data
+cifar10/
+data/
+
+# Model checkpoints (optional, remove if you want to track models)
+z*.pth
+checkpoints/
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log 
+
+# Generated files
+best*.txt
+
+# Optuna / Ray Tune folders
+ray_results/
+*.db
