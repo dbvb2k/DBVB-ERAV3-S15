@@ -88,10 +88,15 @@ python train_model.py --additional_steps 10000
 
 ## Results & Training logs
 
+### Training Log 1 screenshot
 ![Training Log-1](images/train_scr13.png)
+### Training Log 1 screenshot   
 ![Training Log-2](images/train_scr14.png)
+### Final predictions screenshot
 ![Final predictions](images/train_scr22.png)
+### Sample Prediction 1 screenshot  
 ![Sample Prediction 1](images/train_scr4_pred.png)
+### Sample Prediction 2 screenshot
 ![Sample Prediction 2](images/train_scr5_pred.png)
 
 Model performance metrics:
