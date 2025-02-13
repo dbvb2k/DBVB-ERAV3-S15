@@ -53,6 +53,11 @@ Implements efficient expert utilization through:
 - Dynamic capacity adjustment
 - Expert utilization monitoring
 
+### Model Parameter Summary
+Total Parameters: 1.2B (1,244,988,416)
+Trainable Parameters: 1.2B (1,244,988,416)
+Model Size: 4.8GB (4749.25 MB)
+
 Clone repository
 git clone https://github.com/yourusername/deepseek-implementation.git
 cd deepseek-implementation
@@ -70,7 +75,7 @@ The model can be trained on multiple datasets:
 - Alpaca (instruction tuning)
 
 Training parameters:
-- Total steps: 40,000
+- Total steps: 10,000
 - Batch size: 8
 - Learning rate: 3e-4
 - Gradient accumulation steps: 4
@@ -80,10 +85,10 @@ Training parameters:
 
 ## Training & Resuming training
 
-Start new training
-python train_model.py --total_steps 40000
+Start new training  
+python train_model.py --total_steps 10000
 
-Resume training
+Resume training  
 python train_model.py --additional_steps 10000
 
 ## Results & Training logs
@@ -105,14 +110,3 @@ Model performance metrics:
 - Expert utilization
 - Attention patterns
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
